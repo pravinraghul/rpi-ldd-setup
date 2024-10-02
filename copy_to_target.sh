@@ -1,2 +1,4 @@
-IP=192.168.0.101
-scp $1 pi@$IP:/home/pi/
+USER=pi
+IP=192.168.x.x
+
+scp $1 $USER@$IP:/home/pi/
